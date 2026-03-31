@@ -8,28 +8,30 @@ A aplicação simula um sistema de loja/varejo, permitindo o gerenciamento de us
 
 ⚠️ Este projeto foi desenvolvido com fins educacionais e de prática.
 
-🚀 Objetivos de Aprendizado
-📚 Praticar JPA / Hibernate
-🧱 Entender arquitetura em camadas
-🔄 Trabalhar com relacionamentos complexos (OneToMany, ManyToMany)
-🌐 Criar APIs REST com Spring Boot
-❗ Implementar tratamento de exceções
-🧪 Aplicar testes básicos
-🛠️ Tecnologias
+🚀 Objetivos de Aprendizado  
+📚 Praticar JPA / Hibernate  
+🧱 Entender arquitetura em camadas  
+🔄 Trabalhar com relacionamentos complexos (OneToMany, ManyToMany)  
+🌐 Criar APIs REST com Spring Boot  
+❗ Implementar tratamento de exceções  
+🧪 Aplicar testes básicos  
+
+🛠️ Tecnologias  
 ☕ Java 11+
 🌱 Spring Boot
 🗄️ JPA / Hibernate
 📦 Maven
-🧪 JUnit (testes)
+
 🧩 Funcionalidades
 CRUD de:
 👤 Usuários
 📦 Produtos
 🧾 Pedidos
 🏷️ Categorias
+
 Relacionamentos entre entidades
 Tratamento de exceções global
-Estrutura pronta para testes
+
 📁 Estrutura do Projeto
 src/main/java/com/projeto/loja
 ├── config          # Configurações
@@ -37,6 +39,7 @@ src/main/java/com/projeto/loja
 ├── repositories    # Acesso a dados
 ├── services        # Regras de negócio
 ├── resources       # Controllers REST
+
 ⚙️ Como Executar
 # Clonar o projeto
 git clone https://github.com/Antonyj26/loja-jpa.git
